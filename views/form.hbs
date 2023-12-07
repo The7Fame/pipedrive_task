@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <form action="deal" method="post">
+
+      <div id="client-details">
+        <h2>Client Details</h2>
+        <div>
+          <input
+            type="text"
+            id="first_name"
+            name="67be9781683b58deb8b1956779e4a8912ce15fb4"
+            required
+            placeholder="First name"
+          />
+          <input
+            type="text"
+            id="last_name"
+            name="4e42689aa16b52b776d5fe5a67dc3b706d599bb5"
+            required
+            placeholder="Last name"
+          />
+        </div>
+
+        <input
+          type="tel"
+          id="phone"
+          name="377667d636dd29ea35ae8d4a8da8e3d7bfe10b2e"
+          required
+          placeholder="Phone"
+        />
+        <input
+          type="email"
+          id="email"
+          name="7a94f09ebb6b1822451513ee82cd1b0c751b2ca9"
+          required
+          placeholder="Email (optional)"
+        />
+      </div>
+
+      <div id="job-details">
+        <h2>Job Details</h2>
+        <div>
+          <select
+            id="type"
+            name="3e819e330449f43250064f998b6235402e5690db"
+            required
+          >
+            <option value="" disabled selected>Job type</option>
+            <option value="Type1">Type1</option>
+            <option value="Type2">Type2</option>
+            <option value="Type3">Type3</option>
+          </select>
+          <select
+            id="source"
+            name="d921aea85f99b4c95f01c83e91f7a11d0453cf27"
+            required
+          >
+            <option value="" disabled selected>Job source</option>
+            <option value="Source1">Source1</option>
+            <option value="Source1">Source2</option>
+            <option value="Source1">Source3</option>
+          </select>
+        </div>
+
+        <textarea
+          id="description"
+          name="6909111de93217fadcc53120fc92783aad51065a"
+          rows="5"
+          cols="40"
+          placeholder="Job description(optional)"
+        ></textarea>
+      </div>
+
+      <div id="service-location">
+        <h2>Service Location</h2>
+        <input
+          type="text"
+          id="address"
+          name="e6d7d14192c9ea2e7bc25e3f70e1b85b48ab19de"
+          required
+          placeholder="Address"
+        />
+        <input
+          type="text"
+          id="city"
+          name="f26fcd7c1d67ddb5cf722bbc5830539fd8b36c26"
+          placeholder="City"
+          required
+        />
+        <input
+          type="text"
+          id="state"
+          name="ba56608d443e4a7814bda12d1215d1c7281014b7"
+          placeholder="State"
+          required
+        />
+        <div>
+          <input
+            type="text"
+            id="zip"
+            name="c4773ea27c436b90000559d047815213134483c9"
+            required
+            placeholder="Zip code"
+          />
+          <select
+            id="source"
+            name="5617e60d81f8fd1947da08545099d2b807ac3574"
+            required
+          >
+            <option value="" disabled selected>Area</option>
+            <option value="Area1">Area1</option>
+            <option value="Area2">Area2</option>
+            <option value="Area3">Area3</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="schedule">
+        <h2>Schedule</h2>
+        <input
+          type="date"
+          id="date"
+          name="64818bf854d8e5d26c06044e425cdf6ba47508e2"
+          placeholder="Start date"
+          required
+        />
+        <div>
+          <input
+            type="time"
+            id="time_start"
+            name="5cbe027086f7235881e35fea60b96aa0b6f77548"
+            placeholder="Start time"
+            required
+          />
+          <input
+            type="time"
+            id="time_end"
+            name="2a2fe02ad5fffc25a5fee0c1cd956872658c8bd3"
+            placeholder="End time"
+            required
+          />
+        </div>
+        <select
+          id="test"
+          name="1c268967894c589da8450d9b5aea58fde11e46dd"
+          required
+        >
+          <option value="" disabled selected>Test select</option>
+          <option value="Test1">Test1</option>
+          <option value="Test2">Test2</option>
+          <option value="Test3y">Test3</option>
+        </select>
+      </div>
+      <button type="submit">Create</button>
+    </form>
+  </body>
+</html>
